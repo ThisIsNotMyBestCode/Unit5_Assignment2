@@ -27,5 +27,4 @@ public class Temperature {
     public int getHigh() {
         return this.highTemperature;
     }
-    /* Add appropriate instance attributes, constructors, and accessor/mutator methods */
 }

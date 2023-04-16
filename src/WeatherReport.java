@@ -81,7 +81,6 @@ public class WeatherReport {
             }
             prev = current;
         }
-
         return true;
     }
 
@@ -103,7 +102,6 @@ public class WeatherReport {
             }
             prev = current;
         }
-
         return true;
     }
 
@@ -116,7 +114,6 @@ public class WeatherReport {
                 System.out.println(temp.getCity());
             }
         }
-
         if( by == "High") {
             System.out.println("Sorting by high...");
             Collections.sort(this.temperatureList, new SortByHigh());
@@ -131,7 +128,6 @@ public class WeatherReport {
         if (this.temperatureList == null || this.temperatureList.size() <= 1) {
             return;
         }
-
         int n = this.temperatureList.size();
 
         // divide the list into sublists of size 1 and merge them iteratively
